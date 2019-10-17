@@ -68,6 +68,8 @@ header#main-header div.side input {
   color: #667581;
   font-size: 12px;
   background: #f5f8fa url("/images/search.svg") no-repeat 200px center;
+  position: relative;
+  z-index: 1;
 }
 
 header#main-header div.side img {
@@ -79,7 +81,7 @@ header#main-header div.side img {
 
 header#main-header div.side button {
   height: 34px;
-  background: #3bb9e3;
+  background: linear-gradient(to right, #1d2b64, #f8cdda);
 
   display: flex;
   align-items: center;
@@ -90,4 +92,15 @@ header#main-header div.side button {
   color: #fff;
   border: 0;
   border-radius: 16px;
+}
+
+div.banner {
+  height: 380px;
+  width: 100%;
+  background: linear-gradient(to right, #1d2b64, #f8cdda);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
